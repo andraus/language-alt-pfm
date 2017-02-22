@@ -1,7 +1,7 @@
 {
   "name": "language-alt-pfm",
   "version": "0.1.0",
-  "description": "Syntax highlighting and snippets for Pandoc Flavored Markdown (PFM) - Alternative version.",
+  "description": "Syntax highlighting and snippets for Pandoc Flavored Markdown (PFM) - Alternative version, forked from language-pfm.",
   "repository": "https://github.com/andraus/language-alt-pfm",
   "engines": {
     "atom": "*"
