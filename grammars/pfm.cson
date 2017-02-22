@@ -111,6 +111,9 @@ repository:
         include: '#math-inline'
       }
       {
+        include: '#whitespace-sequence'
+      }
+      {
         include: '#code-inline'
       }
       {
@@ -532,6 +535,9 @@ repository:
       {
         include: '#italic-inline'
       }
+      {
+        include: '#whitespace-sequence'
+      }
     ]
   'bold-italic-inline':
     patterns: [
@@ -844,6 +850,14 @@ repository:
           }
         ]
       }
+    ]
+  'whitespace-sequence':
+    patterns: [
+      {
+        match: '  +'
+        name: 'whitespaces.pfm'
+      }
+
     ]
   'math-inline':
     patterns: [

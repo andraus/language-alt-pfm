@@ -3,7 +3,7 @@ describe "Pandoc Flavored Markdown grammar", ->
 
   beforeEach ->
     waitsForPromise ->
-      atom.packages.activatePackage("language-pfm")
+      atom.packages.activatePackage("language-alt-pfm")
 
     runs ->
       grammar = atom.grammars.grammarForScopeName("source.gfm")
